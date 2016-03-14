@@ -15,29 +15,35 @@ body {
 .img-flex {
   display: block;
   width: 100%;
-  max-height: 500px;
 }
 
 .banner {
   overflow: hidden;
   position: relative;
+  max-height: 500px;
 }
 
 .banner-body {
   position: absolute;
-  bottom: 10em;
+  bottom: 0.5em;
   left: 50%;
   transform: translatex(-50%);
+  max-width: 48em;
+  width: 100%;
 }
 
 .title {
   display: inline;
   font-size: 4rem;
+  line-height: 1.4;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
 }
 
 p {
   font-size: 2rem;
   font-style: italic;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
